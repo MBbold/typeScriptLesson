@@ -1,26 +1,18 @@
+import { Button, Typography } from '@mui/material';
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography sx={{color:"#00B589", fontWeight:800}}>
+        Хэрхэн ажилладаг вэ?
+      </Typography>
+      <Button variant='contained' sx={{backgroundColor:"#00B589", fontWeight:800}}>Нэвтрэх</Button>
     </div>
   );
 }
 
-export default App;
+export default App
